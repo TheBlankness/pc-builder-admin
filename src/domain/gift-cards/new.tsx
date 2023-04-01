@@ -124,7 +124,7 @@ const NewGiftCard = ({ onClose }: NewGiftCardProps) => {
         onSuccess: () => {
           notification("Success", "Successfully created Gift Card", "success")
           refetch()
-          navigate("/a/gift-cards/manage")
+          navigate("staff-admin/a/gift-cards/manage")
         },
         onError: (err) => {
           notification("Error", getErrorMessage(err), "error")

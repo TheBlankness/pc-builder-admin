@@ -85,7 +85,7 @@ function CustomersListTableRow(props: CustomersListTableRowProps) {
   const actions = [
     {
       label: "Details",
-      onClick: () => navigate(`/a/customers/${row.original.id}`),
+      onClick: () => navigate(`/staff-admin/a/customers/${row.original.id}`),
       icon: <DetailsIcon size={20} />,
     },
     // {
@@ -108,7 +108,7 @@ function CustomersListTableRow(props: CustomersListTableRowProps) {
     <Table.Row
       color={"inherit"}
       actions={actions}
-      linkTo={`/a/customers/${props.row.original.id}`}
+      linkTo={`/staff-admin/a/customers/${props.row.original.id}`}
       {...props.row.getRowProps()}
     >
       {props.row.cells.map((cell, index) => (

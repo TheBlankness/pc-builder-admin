@@ -23,7 +23,7 @@ const LoginCard: React.FC<LoginCardProps> = ({ toResetPassword }) => {
   const onSubmit = (values: FormValues) => {
     login.mutate(values, {
       onSuccess: () => {
-        navigate("/a/orders")
+        navigate("/staff-admin/a/orders")
       },
       onError: () => {
         setIsInvalidLogin(true)

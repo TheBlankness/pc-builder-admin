@@ -56,7 +56,7 @@ const Overview = () => {
   const onDelete = () => {
     deleteGiftCard.mutate(undefined, {
       onSuccess: () => {
-        navigate("/a/gift-cards")
+        navigate("staff-admin/a/gift-cards")
       },
     })
   }
@@ -91,7 +91,7 @@ const Overview = () => {
                 <GiftCardBanner
                   {...giftCardWithCurrency}
                   onDelete={() => setShowDelete(true)}
-                  onEdit={() => navigate("/a/gift-cards/manage")}
+                  onEdit={() => navigate("staff-admin/a/gift-cards/manage")}
                   onUnpublish={onUpdate}
                 />
               ) : (

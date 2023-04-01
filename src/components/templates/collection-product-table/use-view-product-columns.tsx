@@ -37,7 +37,7 @@ const useViewProductColumns = () => {
         accessor: "title",
         Cell: ({ cell: { row, value } }) => (
           <Table.Cell className="w-[20%]">
-            <Link to={`/a/products/${row.original.id}`}>{value}</Link>
+            <Link to={`/staff-admin/a/products/${row.original.id}`}>{value}</Link>
           </Table.Cell>
         ),
       },

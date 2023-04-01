@@ -79,7 +79,7 @@ const OrderIndex = () => {
                 views={VIEWS}
                 setActiveView={(v) => {
                   if (v === "drafts") {
-                    navigate(`/a/draft-orders`)
+                    navigate(`/staff-admin/a/draft-orders`)
                   }
                 }}
                 activeView={view}

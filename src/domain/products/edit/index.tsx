@@ -47,7 +47,7 @@ const Edit = () => {
   return (
     <div className="pb-5xlarge">
       <BackButton
-        path="/a/products"
+        path="staff-admin/a/products"
         label="Back to Products"
         className="mb-xsmall"
       />

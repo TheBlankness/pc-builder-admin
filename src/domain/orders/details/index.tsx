@@ -164,7 +164,7 @@ const OrderDetails = () => {
   })
 
   // @ts-ignore
-  useHotkeys("esc", () => navigate("/a/orders"))
+  useHotkeys("esc", () => navigate("staff-admin/a/orders"))
   useHotkeys("command+i", handleCopy)
 
   const { hasMovements, swapAmount, manualRefund, swapRefund, returnRefund } =
@@ -223,7 +223,7 @@ const OrderDetails = () => {
     {
       label: "Go to Customer",
       icon: <DetailsIcon size={"20"} />,
-      onClick: () => navigate(`/a/customers/${order?.customer.id}`),
+      onClick: () => navigate(`/staff-admin/a/customers/${order?.customer.id}`),
     },
     {
       label: "Transfer ownership",
@@ -283,7 +283,7 @@ const OrderDetails = () => {
         <Breadcrumb
           currentPage={"Order Details"}
           previousBreadcrumb={"Orders"}
-          previousRoute="/a/orders"
+          previousRoute="staff-admin/a/orders"
         />
         {isLoading || !order ? (
           <BodyCard className="flex w-full items-center justify-center pt-2xlarge">

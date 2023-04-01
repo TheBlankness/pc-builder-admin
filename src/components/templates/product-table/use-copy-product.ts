@@ -162,7 +162,7 @@ const useCopyProduct = () => {
 
     mutate(base as AdminPostProductsReq, {
       onSuccess: ({ product: copiedProduct }) => {
-        navigate(`/a/products/${copiedProduct.id}`)
+        navigate(`/staff-admin/a/products/${copiedProduct.id}`)
         notification("Success", "Created a new product", "success")
       },
       onError: (error) => {

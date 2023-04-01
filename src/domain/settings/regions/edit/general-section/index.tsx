@@ -37,11 +37,11 @@ const GeneralSection = ({ region }: Props) => {
     if (shouldDelete) {
       mutate(undefined, {
         onSuccess: () => {
-          navigate("/a/settings/regions", {
+          navigate("staff-admin/a/settings/regions", {
             replace: true,
           })
           notification("Success", "Region has been deleted", "success")
-          navigate(`/a/settings/regions`, { replace: true })
+          navigate(`/staff-admin/a/settings/regions`, { replace: true })
         },
         onError: (error) => {
           notification("Error", getErrorMessage(error), "error")

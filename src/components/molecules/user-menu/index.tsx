@@ -20,7 +20,7 @@ const UserMenu: React.FC = () => {
   const logOut = () => {
     mutate(undefined, {
       onSuccess: () => {
-        navigate("/login")
+        navigate("/staff-admin/login")
       },
       onError: (err) => {
         notification("Failed to log out", getErrorMessage(err), "error")
@@ -49,7 +49,7 @@ const UserMenu: React.FC = () => {
               variant="ghost"
               size="small"
               className={"w-full justify-start"}
-              onClick={() => navigate("/a/settings")}
+              onClick={() => navigate("staff-admin/a/settings")}
             >
               <GearIcon />
               Settings

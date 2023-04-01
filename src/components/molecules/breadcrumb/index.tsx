@@ -10,7 +10,7 @@ type BreadcrumbProps = React.HtmlHTMLAttributes<HTMLDivElement> & {
 }
 
 const Breadcrumb: React.FC<BreadcrumbProps> = ({
-  previousRoute = "/a/settings",
+  previousRoute = "staff-admin/a/settings",
   previousBreadcrumb = "Settings",
   currentPage,
   className,

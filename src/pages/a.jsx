@@ -22,8 +22,8 @@ import Settings from "../domain/settings"
 
 const IndexPage = () => {
   const navigate = useNavigate()
-  useHotkeys("g + o", () => navigate("/a/orders"))
-  useHotkeys("g + p", () => navigate("/a/products"))
+  useHotkeys("g + o", () => navigate("/staff-admin/a/orders"))
+  useHotkeys("g + p", () => navigate("/staff-admin/a/products"))
 
   return (
     <PrivateRoute>

@@ -13,7 +13,7 @@ const PersonalInformation = () => {
     <div>
       <BackButton
         label="Back to Settings"
-        path="/a/settings"
+        path="staff-admin/a/settings"
         className="mb-xsmall"
       />
       <div className="bg-white flex flex-col rounded-rounded border border-grey-20 pt-large pb-xlarge px-xlarge gap-y-xlarge large:max-w-[50%]">

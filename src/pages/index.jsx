@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const IndexPage = () => {
   const navigate = useNavigate()
   useEffect(() => {
-    navigate("/a/orders")
+    navigate("/staff-admin/a/orders")
   }, [])
 
   return (

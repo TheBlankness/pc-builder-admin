@@ -191,7 +191,7 @@ function CustomerGroupDetailsHeader(props: CustomerGroupDetailsHeaderProps) {
 
   const onDeleteConfirmed = async () => {
     deleteGroup()
-    navigate("/a/customers/groups")
+    navigate("staff-admin/a/customers/groups")
   }
 
   const handleConfirmDialogClose = () => setShowDeleteConfirmation(false)
@@ -234,7 +234,7 @@ function CustomerGroupDetails() {
     <CustomerGroupContextContainer group={customer_group}>
       <div className="-mt-4 pb-4">
         <BackButton
-          path="/a/customers/groups"
+          path="staff-admin/a/customers/groups"
           label="Back to customer groups"
           className="mb-4"
         />

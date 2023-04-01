@@ -83,7 +83,7 @@ const ProductTable = () => {
 
   const updateUrlFromFilter = (obj = {}) => {
     const stringified = qs.stringify(obj)
-    window.history.replaceState(`/a/products`, "", `${`?${stringified}`}`)
+    window.history.replaceState(`/staff-admin/a/products`, "", `${`?${stringified}`}`)
   }
 
   const refreshWithFilters = () => {
@@ -252,7 +252,7 @@ const ProductRow = ({ row, ...rest }) => {
   return (
     <Table.Row
       color={"inherit"}
-      linkTo={`/a/products/${product.id}`}
+      linkTo={`/staff-admin/a/products/${product.id}`}
       actions={getActions()}
       {...rest}
     >

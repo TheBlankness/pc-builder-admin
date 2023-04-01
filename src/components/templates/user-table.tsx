@@ -130,7 +130,7 @@ const UserTable: React.FC<UserTableProps> = ({
             onClick: () => {
               const link_template =
                 store?.invite_link_template ??
-                `${window.location.origin}/invite?token={invite_token}`
+                `${window.location.origin}/staff-admin/invite?token={invite_token}`
 
               copy(link_template.replace("{invite_token}", invite.token))
               notification(

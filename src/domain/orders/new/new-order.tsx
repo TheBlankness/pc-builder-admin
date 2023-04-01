@@ -103,7 +103,7 @@ const NewOrder = ({ onDismiss }: NewOrderProps) => {
           reset()
           onDismiss()
           steppedContext.reset()
-          navigate(`/a/draft-orders/${draft_order.id}`)
+          navigate(`/staff-admin/a/draft-orders/${draft_order.id}`)
         },
         onError: (error) => {
           notification("Error", error.message, "error")

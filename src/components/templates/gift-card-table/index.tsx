@@ -104,7 +104,7 @@ const GiftCardTable = () => {
 
   const updateUrlFromFilter = (obj = {}) => {
     const stringified = qs.stringify(obj)
-    window.history.replaceState(`/a/gift-cards`, "", `${`?${stringified}`}`)
+    window.history.replaceState(`/staff-admin/a/gift-cards`, "", `${`?${stringified}`}`)
   }
 
   const refreshWithFilters = () => {

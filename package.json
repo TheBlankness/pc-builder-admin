@@ -107,7 +107,7 @@
     "vitest": "^0.28.4"
   },
   "scripts": {
-    "dev": "vite --port 7000",
+    "dev": "vite --port 7000 --host 192.168.68.81",
     "develop": "npm run dev",
     "check": "tsc",
     "build": "vite build",

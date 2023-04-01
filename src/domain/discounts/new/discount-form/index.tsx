@@ -33,7 +33,7 @@ const DiscountForm = ({ closeForm }: DiscountFormProps) => {
     if (closeForm) {
       closeForm()
     } else {
-      navigate("/a/discounts")
+      navigate("staff-admin/a/discounts")
     }
     handleReset()
   }

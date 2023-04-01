@@ -17,11 +17,11 @@ const ResetPasswordPage = lazy(() => import("./pages/reset-password"))
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/" element={<IndexPage />} />
-      <Route path="a/*" element={<Dashboard />} />
-      <Route path="invite" element={<InvitePage />} />
-      <Route path="login" element={<LoginPage />} />
-      <Route path="reset-password" element={<ResetPasswordPage />} />
+      <Route path="/staff-admin/" element={<IndexPage />} />
+      <Route path="/staff-admin/a/*" element={<Dashboard />} />
+      <Route path="/staff-admin/invite" element={<InvitePage />} />
+      <Route path="/staff-admin/login" element={<LoginPage />} />
+      <Route path="/staff-admin/reset-password" element={<ResetPasswordPage />} />
       <Route path="*" element={<NotFound />} />
     </>
   )

@@ -36,7 +36,7 @@ const useEditProductActions = (productId: string) => {
       deleteProduct.mutate(undefined, {
         onSuccess: () => {
           notification("Success", "Product deleted successfully", "success")
-          navigate("/a/products/")
+          navigate("staff-admin/a/products/")
         },
         onError: (err) => {
           notification("Error", getErrorMessage(err), "error")

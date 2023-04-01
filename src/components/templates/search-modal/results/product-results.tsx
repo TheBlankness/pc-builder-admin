@@ -35,7 +35,7 @@ const ProductResults = ({
               )}
             >
               <Link
-                to={`/a/products/${product.id}`}
+                to={`/staff-admin/a/products/${product.id}`}
                 className="flex items-center justify-between"
               >
                 <div className="flex items-center gap-x-3">

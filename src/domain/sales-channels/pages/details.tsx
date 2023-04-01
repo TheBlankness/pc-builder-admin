@@ -386,7 +386,7 @@ function Details() {
   const { sales_channels } = useAdminSalesChannels()
 
   const setActiveSalesChannelId = (scId: string) => {
-    navigate(`/a/sales-channels/${scId}`)
+    navigate(`/staff-admin/a/sales-channels/${scId}`)
   }
 
   useEffect(() => {
@@ -452,7 +452,7 @@ function Details() {
       <Breadcrumb
         currentPage={"Sales channels"}
         previousBreadcrumb={"Settings"}
-        previousRoute="/a/settings"
+        previousRoute="staff-admin/a/settings"
       />
 
       <TwoSplitPane threeCols>

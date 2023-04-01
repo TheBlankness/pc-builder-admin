@@ -25,7 +25,7 @@ const useCollectionActions = (collection) => {
   const getActions = (coll): ActionType[] => [
     {
       label: "Edit",
-      onClick: () => navigate(`/a/collections/${coll.id}`),
+      onClick: () => navigate(`/staff-admin/a/collections/${coll.id}`),
       icon: <EditIcon size={20} />,
     },
     {

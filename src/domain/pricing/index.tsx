@@ -12,7 +12,7 @@ const PricingIndex = () => {
   const actionables = [
     {
       label: "Add price list",
-      onClick: () => navigate(`/a/pricing/new`),
+      onClick: () => navigate(`/staff-admin/a/pricing/new`),
       icon: <PlusIcon size={20} />,
     },
   ]

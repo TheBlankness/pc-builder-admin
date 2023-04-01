@@ -35,7 +35,7 @@ const useProductActions = (product: Product) => {
   const getActions = (): ActionType[] => [
     {
       label: "Edit",
-      onClick: () => navigate(`/a/products/${product.id}`),
+      onClick: () => navigate(`/staff-admin/a/products/${product.id}`),
       icon: <EditIcon size={20} />,
     },
     {

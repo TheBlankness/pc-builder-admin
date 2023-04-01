@@ -148,7 +148,7 @@ const DraftOrderTable = () => {
             return (
               <Table.Row
                 color={"inherit"}
-                linkTo={`/a/draft-orders/${row.original.id}`}
+                linkTo={`/staff-admin/a/draft-orders/${row.original.id}`}
                 {...row.getRowProps()}
               >
                 {row.cells.map((cell, index) => {

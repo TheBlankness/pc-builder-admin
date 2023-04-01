@@ -36,7 +36,7 @@ const CollectionDetails = () => {
 
   const handleDelete = () => {
     deleteCollection.mutate(undefined, {
-      onSuccess: () => navigate(`/a/collections`),
+      onSuccess: () => navigate(`/staff-admin/a/collections`),
     })
   }
 
@@ -110,7 +110,7 @@ const CollectionDetails = () => {
       <div className="flex flex-col !pb-xlarge">
         <BackButton
           className="mb-xsmall"
-          path="/a/products?view=collections"
+          path="staff-admin/a/products?view=collections"
           label="Back to Collections"
         />
         <div className="rounded-rounded py-large px-xlarge border border-grey-20 bg-grey-0 mb-large">

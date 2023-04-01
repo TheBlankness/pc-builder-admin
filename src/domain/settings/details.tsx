@@ -65,7 +65,7 @@ const AccountDetails = () => {
     <form className="flex-col py-5">
       <div className="max-w-[632px]">
         <BreadCrumb
-          previousRoute="/a/settings/"
+          previousRoute="staff-admin/a/settings/"
           previousBreadcrumb="Settings"
           currentPage="Store Details"
         />

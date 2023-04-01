@@ -78,7 +78,7 @@ const Information: React.FC<InformationProps> = ({ giftCard }) => {
   const onDelete = () => {
     deleteGiftCard.mutate(undefined, {
       onSuccess: () => {
-        navigate("/a/gift-cards")
+        navigate("staff-admin/a/gift-cards")
         notification("Success", "Gift card updated successfully", "success")
       },
       onError: (error) => {

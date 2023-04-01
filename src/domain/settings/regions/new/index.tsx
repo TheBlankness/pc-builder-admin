@@ -72,7 +72,7 @@ const NewRegion = ({ onClose }: Props) => {
       mutate(payload, {
         onSuccess: ({ region }) => {
           notification("Success", "Region created", "success")
-          navigate(`/a/settings/regions/${region.id}`)
+          navigate(`/staff-admin/a/settings/regions/${region.id}`)
           closeAndReset()
         },
         onError: (error) => {

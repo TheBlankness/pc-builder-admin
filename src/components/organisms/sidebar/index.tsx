@@ -44,43 +44,43 @@ const Sidebar: React.FC = () => {
         </div>
         <div className="py-3.5">
           <SidebarMenuItem
-            pageLink={"/a/orders"}
+            pageLink={"/staff-admin/a/orders"}
             icon={<CartIcon size={ICON_SIZE} />}
             triggerHandler={triggerHandler}
             text={"Orders"}
           />
           <SidebarMenuItem
-            pageLink={"/a/products"}
+            pageLink={"/staff-admin/a/products"}
             icon={<TagIcon size={ICON_SIZE} />}
             text={"Products"}
             triggerHandler={triggerHandler}
           />
           <SidebarMenuItem
-            pageLink={"/a/customers"}
+            pageLink={"/staff-admin/a/customers"}
             icon={<UsersIcon size={ICON_SIZE} />}
             triggerHandler={triggerHandler}
             text={"Customers"}
           />
           <SidebarMenuItem
-            pageLink={"/a/discounts"}
+            pageLink={"/staff-admin/a/discounts"}
             icon={<SaleIcon size={ICON_SIZE} />}
             triggerHandler={triggerHandler}
             text={"Discounts"}
           />
           <SidebarMenuItem
-            pageLink={"/a/gift-cards"}
+            pageLink={"/staff-admin/a/gift-cards"}
             icon={<GiftIcon size={ICON_SIZE} />}
             triggerHandler={triggerHandler}
             text={"Gift Cards"}
           />
           <SidebarMenuItem
-            pageLink={"/a/pricing"}
+            pageLink={"/staff-admin/a/pricing"}
             icon={<CashIcon size={ICON_SIZE} />}
             triggerHandler={triggerHandler}
             text={"Pricing"}
           />
           <SidebarMenuItem
-            pageLink={"/a/settings"}
+            pageLink={"/staff-admin/a/settings"}
             icon={<GearIcon size={ICON_SIZE} />}
             triggerHandler={triggerHandler}
             text={"Settings"}

@@ -16,9 +16,9 @@ function CustomersPageTableHeader(props: P) {
     <TableViewHeader
       setActiveView={(v) => {
         if (v === "customers") {
-          navigate(`/a/customers`)
+          navigate(`/staff-admin/a/customers`)
         } else {
-          navigate(`/a/customers/groups`)
+          navigate(`/staff-admin/a/customers/groups`)
         }
       }}
       views={["customers", "groups"]}

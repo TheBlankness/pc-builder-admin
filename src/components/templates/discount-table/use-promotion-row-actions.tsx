@@ -37,7 +37,7 @@ const usePromotionActions = (promotion) => {
       {
         label: "Edit",
         icon: <EditIcon size={20} />,
-        onClick: () => navigate(`/a/discounts/${promotion.id}`),
+        onClick: () => navigate(`/staff-admin/a/discounts/${promotion.id}`),
       },
       {
         label: promotion.is_disabled ? "Publish" : "Unpublish",

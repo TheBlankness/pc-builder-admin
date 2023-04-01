@@ -17,7 +17,7 @@ const PricingDetails = () => {
       <Breadcrumb
         currentPage="Edit price list"
         previousBreadcrumb="Pricing"
-        previousRoute="/a/pricing"
+        previousRoute="staff-admin/a/pricing"
       />
 
       {!isLoading && price_list ? (

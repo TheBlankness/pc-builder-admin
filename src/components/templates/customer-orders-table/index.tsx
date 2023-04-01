@@ -126,7 +126,7 @@ const CustomerOrdersTable = ({ id }: Props) => {
                     },
                   ]}
                   {...row.getRowProps()}
-                  linkTo={`/a/orders/${row.original.id}`}
+                  linkTo={`/staff-admin/a/orders/${row.original.id}`}
                 >
                   {row.cells.map((cell) => {
                     return (

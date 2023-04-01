@@ -128,7 +128,7 @@ const DraftOrderDetails = () => {
       <Breadcrumb
         currentPage={"Draft Order Details"}
         previousBreadcrumb={"Draft Orders"}
-        previousRoute="/a/draft-orders"
+        previousRoute="staff-admin/a/draft-orders"
       />
       {isLoading || !draft_order ? (
         <BodyCard className="w-full pt-2xlarge flex items-center justify-center">
@@ -150,7 +150,7 @@ const DraftOrderDetails = () => {
                     variant="secondary"
                     size="small"
                     onClick={() =>
-                      navigate(`/a/orders/${draft_order.order_id}`)
+                      navigate(`/staff-admin/a/orders/${draft_order.order_id}`)
                     }
                   >
                     Go to Order
@@ -411,7 +411,7 @@ const DraftOrderDetails = () => {
                 {
                   label: "Go to Customer",
                   icon: <DetailsIcon size={"20"} />, // TODO: Change to Contact icon
-                  onClick: () => navigate(`/a/customers/${cart?.customer.id}`),
+                  onClick: () => navigate(`/staff-admin/a/customers/${cart?.customer.id}`),
                 },
               ]}
             >

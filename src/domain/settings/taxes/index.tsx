@@ -27,7 +27,7 @@ const Taxes = () => {
     <>
       <div>
         <BreadCrumb
-          previousRoute="/a/settings"
+          previousRoute="staff-admin/a/settings"
           previousBreadcrumb="Settings"
           currentPage="Taxes"
         />
@@ -40,7 +40,7 @@ const Taxes = () => {
               {
                 icon: <GearIcon />,
                 label: "Go to Region settings",
-                onClick: () => navigate("/a/settings/regions"),
+                onClick: () => navigate("staff-admin/a/settings/regions"),
               },
             ]}
           >

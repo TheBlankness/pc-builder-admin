@@ -143,7 +143,7 @@ const NewProduct = ({ onClose }: Props) => {
       mutate(payload, {
         onSuccess: ({ product }) => {
           closeAndReset()
-          navigate(`/a/products/${product.id}`)
+          navigate(`/staff-admin/a/products/${product.id}`)
         },
         onError: (err) => {
           notification("Error", getErrorMessage(err), "error")

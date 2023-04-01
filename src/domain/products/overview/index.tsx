@@ -132,7 +132,7 @@ const Overview = () => {
       {
         onSuccess: ({ collection }) => {
           notification("Success", "Successfully created collection", "success")
-          navigate(`/a/collections/${collection.id}`)
+          navigate(`/staff-admin/a/collections/${collection.id}`)
           setShowNewCollection(false)
         },
         onError: (err) => notification("Error", getErrorMessage(err), "error"),

@@ -51,7 +51,7 @@ function EditCustomersTableRow(props: EditCustomersTableRowProps) {
   return (
     <Table.Row
       color={"inherit"}
-      linkTo={`/a/customers/${props.row.original.id}`}
+      linkTo={`/staff-admin/a/customers/${props.row.original.id}`}
       {...props.row.getRowProps()}
     >
       {props.row.cells.map((cell, index) => (

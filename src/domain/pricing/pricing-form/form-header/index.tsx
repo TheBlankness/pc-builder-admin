@@ -46,7 +46,7 @@ const FormHeader = (props: PriceListFormProps & { onClose?: () => void }) => {
     }
     createPriceList.mutate(data, {
       onSuccess: ({ price_list }) => {
-        navigate(`/a/pricing/${price_list.id}`)
+        navigate(`/staff-admin/a/pricing/${price_list.id}`)
       },
       onError: (error) => {
         notification("Error", getErrorMessage(error), "error")
@@ -61,7 +61,7 @@ const FormHeader = (props: PriceListFormProps & { onClose?: () => void }) => {
     }
     createPriceList.mutate(data, {
       onSuccess: ({ price_list }) => {
-        navigate(`/a/pricing/${price_list.id}`)
+        navigate(`/staff-admin/a/pricing/${price_list.id}`)
       },
       onError: (error) => {
         notification("Error", getErrorMessage(error), "error")

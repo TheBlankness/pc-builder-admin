@@ -79,7 +79,7 @@ const GiftCardDetails = () => {
       <Breadcrumb
         currentPage={"Gift Card Details"}
         previousBreadcrumb={"Gift Cards"}
-        previousRoute="/a/gift-cards"
+        previousRoute="staff-admin/a/gift-cards"
       />
       {isLoading || !giftCard ? (
         <div className="w-full bg-grey-0 border border-grey-20 rounded-rounded py-xlarge flex items-center justify-center">

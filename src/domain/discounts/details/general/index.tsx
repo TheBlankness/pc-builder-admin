@@ -35,7 +35,7 @@ const General: React.FC<GeneralProps> = ({ discount }) => {
       deletediscount.mutate(undefined, {
         onSuccess: () => {
           notification("Success", "Promotion deleted successfully", "success")
-          navigate("/a/discounts/")
+          navigate("staff-admin/a/discounts/")
         },
         onError: (err) => {
           notification("Error", getErrorMessage(err), "error")

@@ -30,7 +30,7 @@ const OrderResults = ({
               })}
             >
               <Link
-                to={`/a/orders/${order.id}`}
+                to={`/staff-admin/a/orders/${order.id}`}
                 className="px-base py-1.5 flex items-center rounded-rounded justify-between"
               >
                 <div className="flex items-center gap-x-3">

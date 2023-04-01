@@ -49,7 +49,7 @@ const CustomerDetail = () => {
       <Breadcrumb
         currentPage={"Customer Details"}
         previousBreadcrumb={"Customers"}
-        previousRoute="/a/customers"
+        previousRoute="staff-admin/a/customers"
       />
       <BodyCard className={"relative mb-4 h-auto w-full pt-[100px]"}>
         <div className="from-fuschia-20 absolute inset-x-0 top-0 z-0 h-[120px] w-full bg-gradient-to-b" />

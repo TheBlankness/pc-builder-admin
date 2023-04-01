@@ -233,7 +233,7 @@ function Index() {
       <Breadcrumb
         currentPage="Publishable API Keys"
         previousBreadcrumb="Settings"
-        previousRoute="/a/settings"
+        previousRoute="staff-admin/a/settings"
       />
       <BodyCard
         title="Publishable API keys"

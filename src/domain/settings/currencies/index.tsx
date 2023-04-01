@@ -62,7 +62,7 @@ const CurrencySettings = () => {
     <div className="pb-xlarge">
       <BackButton
         label="Back to Settings"
-        path="/a/settings"
+        path="staff-admin/a/settings"
         className="mb-xsmall"
       />
       <div className="grid grid-cols-3 gap-base">

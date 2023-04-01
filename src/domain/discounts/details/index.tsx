@@ -53,7 +53,7 @@ const Edit = () => {
       <Breadcrumb
         currentPage="Add Discount"
         previousBreadcrumb="Discount"
-        previousRoute="/a/discounts"
+        previousRoute="staff-admin/a/discounts"
       />
       {isLoading || !discount ? (
         <div className="h-full flex items-center justify-center">

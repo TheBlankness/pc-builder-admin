@@ -43,7 +43,7 @@ const RegionOverview = ({ id }: Props) => {
     }
 
     if (!selectedRegion && regions && regions.length > 0) {
-      navigate(`/a/settings/regions/${regions[0].id}`, {
+      navigate(`/staff-admin/a/settings/regions/${regions[0].id}`, {
         replace: true,
       })
     }
@@ -52,7 +52,7 @@ const RegionOverview = ({ id }: Props) => {
   const handleChange = (id: string) => {
     if (id !== selectedRegion) {
       setSelectedRegion(id)
-      navigate(`/a/settings/regions/${id}`)
+      navigate(`/staff-admin/a/settings/regions/${id}`)
     }
   }
 

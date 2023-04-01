@@ -28,44 +28,44 @@ const SettingsIndex = () => {
         heading={"Regions"}
         description={"Manage the markets you will operate within"}
         icon={<MapPinIcon />}
-        to={`/a/settings/regions`}
+        to={`/staff-admin/a/settings/regions`}
       />
       <SettingsCard
         heading={"Currencies"}
         description={"Manage the markets you will operate within"}
         icon={<CoinsIcon />}
-        to={`/a/settings/currencies`}
+        to={`/staff-admin/a/settings/currencies`}
       />
       <SettingsCard
         heading={"Store Details"}
         description={"Manage your business details"}
         icon={<CrosshairIcon />}
-        to={`/a/settings/details`}
+        to={`/staff-admin/a/settings/details`}
       />
       <SettingsCard
         heading={"Shipping"}
         description={"Manage shipping profiles"}
         icon={<TruckIcon />}
-        to={`/a/settings/shipping-profiles`}
+        to={`/staff-admin/a/settings/shipping-profiles`}
         disabled={true}
       />
       <SettingsCard
         heading={"Return Reasons"}
         description={"Manage Order settings"}
         icon={<DollarSignIcon />}
-        to={`/a/settings/return-reasons`}
+        to={`/staff-admin/a/settings/return-reasons`}
       />
       <SettingsCard
         heading={"The Team"}
         description={"Manage users of your Medusa Store"}
         icon={<UsersIcon />}
-        to={`/a/settings/team`}
+        to={`/staff-admin/a/settings/team`}
       />
       <SettingsCard
         heading={"Personal Information"}
         description={"Manage your Medusa profile"}
         icon={<HappyIcon />}
-        to={`/a/settings/personal-information`}
+        to={`/staff-admin/a/settings/personal-information`}
       />
       <SettingsCard
         heading={"hello@medusajs.com"}
@@ -77,14 +77,14 @@ const SettingsIndex = () => {
         heading={"Tax Settings"}
         description={"Manage taxes across regions and products"}
         icon={<TaxesIcon />}
-        to={`/a/settings/taxes`}
+        to={`/staff-admin/a/settings/taxes`}
       />
       <FeatureToggle featureFlag="sales_channels">
         <SettingsCard
           heading={"Sales channels"}
           description={"Control which products are available in which channels"}
           icon={<ChannelsIcon />}
-          to={`/a/sales-channels`}
+          to={`/staff-admin/a/sales-channels`}
         />
       </FeatureToggle>
       <FeatureToggle featureFlag="publishable_api_keys">
@@ -92,7 +92,7 @@ const SettingsIndex = () => {
           heading={"API key management"}
           description={"Create and manage API keys"}
           icon={<KeyIcon />}
-          to={`/a/publishable-api-keys`}
+          to={`/staff-admin/a/publishable-api-keys`}
         />
       </FeatureToggle>
     </SettingsOverview>

@@ -114,7 +114,7 @@ const CustomerTable = () => {
 
   const updateUrlFromFilter = (obj = {}) => {
     const stringified = qs.stringify(obj)
-    window.history.replaceState(`/a/discounts`, "", `${`?${stringified}`}`)
+    window.history.replaceState(`/staff-admin/a/discounts`, "", `${`?${stringified}`}`)
   }
 
   const refreshWithFilters = () => {
